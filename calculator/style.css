@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@700&family=PT+Serif&family=Pacifico&family=Passions+Conflict&family=Permanent+Marker&family=Righteous&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Righteous', cursive;
+}
+body{
+    width:100%;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(145deg,#7c14a5,#1361a5);
+}
+.calculator{
+    border: 5px solid rgb(9, 9, 11);
+    border-radius: 16px;
+    padding: 30px 20px ;
+    margin: 10px 10px;
+    background-color: transparent;
+    box-shadow:0px 3px 15px #d59beb;
+}
+input{
+    width:400px;
+    border:none ;
+    padding: 10px 10px ;
+    margin:10px 10px ;
+    background: transparent;
+    box-shadow: 0px 3px 15px #bc95ca;
+    font-size: 40px;
+    text-align: right;
+    cursor:pointer;
+}
+
+input::placeholder{
+    color:#976cb6;
+}
+
+button{
+    border: none;
+    width:60px;
+    height:60px ;
+    margin: 10px;
+    border-radius: 50px ;
+    background: transparent;
+    color:#0e1b55;
+    font-size: 20px;
+    box-shadow:-8px -8px 10px  #151218;
+    cursor:pointer;
+}
+.equalBtn{
+    background-color: rgb(219, 149, 29) ;
+}
+.operator{
+    background-color: #ccb6ff;
+}
+
